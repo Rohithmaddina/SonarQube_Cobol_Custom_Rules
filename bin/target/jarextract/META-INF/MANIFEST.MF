@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.8.6
+Built-By: AC29230
+Build-Jdk: 11.0.12
+Implementation-Title: SonarQube COBOL Custom Rules Example
+Implementation-Version: 1.0
+Implementation-Vendor-Id: org.sonarsource.samples
+Plugin-ChildFirstClassLoader: false
+Plugin-Developers: 
+Plugin-License: 
+SonarLint-Supported: true
+Plugin-Key: cobolcustom
+Plugin-BuildDate: 2024-02-22T08:49:30-0500
+Plugin-Version: 1.0
+Plugin-Name: COBOL Custom Rules
+Plugin-Class: com.mycompany.cobol.sample.CobolCustomRulesPlugin
+Plugin-Description: COBOL Custom Rules Example for SonarQube
+Plugin-Display-Version: 1.0
+Sonar-Version: 6.7
+Plugin-Base: cobol
+

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.cobol.sample.checks.ForbiddenCallRuleTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.950 s -- in com.mycompany.cobol.sample.checks.ForbiddenCallRuleTest

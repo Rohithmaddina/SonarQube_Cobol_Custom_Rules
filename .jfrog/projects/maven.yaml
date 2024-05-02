@@ -1,0 +1,10 @@
+version: 1
+type: maven
+resolver:
+  serverId: artifactory
+  snapshotRepo: clmtools-maven-public
+  releaseRepo: clmtools-maven-public
+deployer:
+  serverId: artifactory
+  snapshotRepo: clmtools-maven-snapshot
+  releaseRepo: clmtools-maven-release

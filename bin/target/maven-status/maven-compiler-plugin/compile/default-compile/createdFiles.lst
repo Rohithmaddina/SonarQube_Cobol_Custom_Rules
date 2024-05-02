@@ -1,0 +1,5 @@
+com\mycompany\cobol\sample\CobolCustomCheckRepository.class
+com\mycompany\cobol\sample\CobolCustomRulesPlugin.class
+com\mycompany\cobol\sample\checks\ForbiddenCallRule.class
+com\mycompany\cobol\sample\checks\IssueOnEachFileRule.class
+com\mycompany\cobol\sample\checks\TrivialEvaluateRule.class

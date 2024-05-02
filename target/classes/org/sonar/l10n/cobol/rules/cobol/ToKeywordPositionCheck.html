@@ -1,0 +1,61 @@
+<p>If <code>TO</code> statement is not present at exact column number 40 it should throw an error</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+=COLS> ----+----1----+----2----+----3----+----4----+----5----+----6----+----7--
+
+001948       *****************************************************************
+
+001949       *  CALC PREVIOUS DATE                                           *
+
+001950       *****************************************************************
+
+001951        22300-GET-PREV-DATE.
+
+001953            MOVE WS-GET-PREV-DATE       TO WS-LAST-PARA
+
+001955       D    DISPLAY WS-LAST-PARAGRAPH
+
+001956
+
+001957            MOVE WS-DATE-END            TO WGMDTCLS-END-DATE
+
+001958            MOVE WS-NUM-1               TO WGMDTCLS-NBR-DAYS
+
+001958PGXXXX      MOVE WS-NUM-1                    TO WGMDTCLS-NBR-DAYS
+
+001959
+
+001960            SET WGMDTCLS-SUB-DAYS
+
+001961                WGMDTCLS-OK             TO TRUE 
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+=COLS> ----+----1----+----2----+----3----+----4----+----5----+----6----+----7--
+
+001948       *****************************************************************
+
+001949       *  CALC PREVIOUS DATE                                           *
+
+001950       *****************************************************************
+
+001951        22300-GET-PREV-DATE.
+
+001953            MOVE WS-GET-PREV-DATE         TO WS-LAST-PARA
+
+001955       D    DISPLAY WS-LAST-PARAGRAPH
+
+001956
+
+001957            MOVE WS-DATE-END               TO WGMDTCLS-END-DATE
+
+001958            MOVE WS-NUM-1                  TO WGMDTCLS-NBR-DAYS
+
+001958PGXXXX      MOVE WS-NUM-1                  TO WGMDTCLS-NBR-DAYS
+
+001959
+
+001960            SET WGMDTCLS-SUB-DAYS
+
+001961                WGMDTCLS-OK                TO TRUE
+</pre>
